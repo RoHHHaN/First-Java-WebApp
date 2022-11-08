@@ -11,7 +11,7 @@ public class ConnectionProvider {
             //Driver Class Load
             if (con == null) {
                 Class.forName("org.postgresql.Driver");
-                con = DriverManager.getConnection("jdbc:postgresql://db.aktdemplyleaulzisvpt.supabase.co:5432/postgres", "postgres", "a9933414729");
+                con = DriverManager.getConnection("JDBC URL", "USERNAME", "PASSWORD");
             }
         } catch (Exception e) {
             e.printStackTrace();
