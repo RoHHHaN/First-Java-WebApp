@@ -1,0 +1,16 @@
+.home-logo{ 
+    height: 50px;
+    width: 120px;
+}
+
+.bg-primary{
+    background: linear-gradient(90deg, rgba(8,120,9,1) 0%, rgba(213,219,132,1) 100%);
+}
+.bg-new{
+    background: linear-gradient(90deg, rgba(8,97,9,1) 0%, rgba(160,164,102,1) 100%);
+}
+
+.banner-background{
+    clip-path:circle(320px at center 0);
+}
+
